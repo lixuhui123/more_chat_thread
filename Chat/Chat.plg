@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chat - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Z7M\AppData\Local\Temp\RSP90F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Chat.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vc++ 孙鑫\VC++深入详解教学视频\Lesson15\Code\Chat\Chat.cpp"
+"E:\vc++ 孙鑫\VC++深入详解教学视频\Lesson15\Code\Chat\ChatDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Z7M\AppData\Local\Temp\RSP90F1.tmp" 
+Creating temporary file "C:\Users\Z7M\AppData\Local\Temp\RSP9102.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Chat.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vc++ 孙鑫\VC++深入详解教学视频\Lesson15\Code\Chat\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Z7M\AppData\Local\Temp\RSP9102.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Chat.pdb" /debug /machine:I386 /out:"Debug/Chat.exe" /pdbtype:sept  ".\Debug\Chat.obj" ".\Debug\ChatDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Chat.res" "
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+Chat.cpp
+ChatDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Chat.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
